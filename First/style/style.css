@@ -55,14 +55,49 @@ ul, li {
     padding-left: 50px;
 }
 
-.btn {
-    border: none;
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    align-items: center;
+}
+
+.header__content-info {
+    max-width: 470px;
+}
+
+.header__content-info__suptitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2557AB;
+    padding-bottom: 5px;
+}
+
+.header__content-info__title {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 63px;
+    letter-spacing: -1px;
+    color: #13253A;
+    padding-bottom: 10px;
+}
+
+.header__content-info__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #13253A;
+    opacity: 0.9;
+    padding-bottom: 20px;
+}
+
+.header__content-button {
     background-color: #FF7F57;
-    color: #fff;
-    height: 40px;
+    border-radius: 3px;
     font-weight: 600;
     font-size: 17px;
     line-height: 23px;
-    padding: 0 42px;
-    border-radius: 3px;
+    color: #FFFFFF;
+    padding: 18px 42px;
 }
